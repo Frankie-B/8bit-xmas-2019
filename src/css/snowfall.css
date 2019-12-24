@@ -30,6 +30,18 @@ h1 {
   animation: blink 1s infinite;
 }
 
+#names {
+  bottom: 10%;
+  color: white;
+  left: 1%;
+  position: relative;
+  z-index: 2;
+}
+
+.fa-heart {
+  color: red;
+}
+
 @media screen and (max-width: 370px) {
   font-size: 14px;
   border-right: 4px solid #fff;
